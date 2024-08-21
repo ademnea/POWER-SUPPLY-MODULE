@@ -1,0 +1,432 @@
+{
+  "uuid": "d311b502981892878f486ea1760c12eb",
+  "path": "Offline/FINAL%20YEAR%20PROJECT",
+  "name": "FINAL YEAR PROJECT",
+  "content": "",
+  "created_at": "2024-02-09 02:09:20",
+  "updated_at": "2024-08-21 13:17:49",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "c643dbc453ad33b3223e2c6edabdcac6",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "0b6ea66f1a77ef3069b26dadb3d73791": 3,
+        "5fe245ff6b9e475096776d0b6c0998a1": 6,
+        "6c09ec82c6694962a6fce5e4cb9d9df2": 1,
+        "a83fd387e18f4be793b8bbfae81c5a18": 1,
+        "14305fcff6fe44d7aa3af50b8ddc6b6d": 5,
+        "5601ccfc2a9a4af38139cf79e789df4b": 1,
+        "4c4d9789c8e0457c986d20e20f67527c": 1,
+        "da4214269aab4c569ca1f27eb0eaf7c8": 2,
+        "45948daa2a43706d5c3787fcbf830d21": 1,
+        "d230e36580fb45eda55855df3389d113": 1,
+        "5cff96287a9242b287e90590d8822eeb": 1,
+        "765452614bf1424f8707a5d6d7019657": 1,
+        "dea2ce1161d344d1acb6942d81527ead": 1,
+        "08c2c7e8c8b0acfd1902a7861fb76f69": 1,
+        "2c0a970a27014b76a5701fd82479de62": 2,
+        "d238d406527f461f846600d10482d9a6": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Connector",
+          3,
+          "HDR-1X2/2.54",
+          "3V3,5V,BATTERY1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "2.54-1*2PFemale",
+            "image": "//image.lceda.cn/szlcsc/C49661.jpg",
+            "Supplier Part": "C49661",
+            "puuid": "f61994d539564aabbacb96cb1ba011be",
+            "uuid": "0b6ea66f1a77ef3069b26dadb3d73791"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "0805",
+          "C1",
+          {
+            "Manufacturer Part": "CC0805KRX7R9BB104",
+            "spiceSymbolName": "Cap_0805_EU",
+            "Supplier": "LCSC",
+            "Manufacturer": "YAGEO",
+            "Supplier Part": "C49678",
+            "puuid": "0d14e6c62b14419a891d7c175b7eca4f",
+            "uuid": "5fe245ff6b9e475096776d0b6c0998a1"
+          }
+        ],
+        [
+          "22u",
+          4,
+          "0805",
+          "C2,C5,C9,C10",
+          {
+            "Manufacturer Part": "CL21A226MAQNNNE",
+            "spiceSymbolName": "Cap_0805_EU",
+            "Supplier": "LCSC",
+            "Manufacturer": "SAMSUNG",
+            "Supplier Part": "C45783",
+            "puuid": "0d14e6c62b14419a891d7c175b7eca4f",
+            "uuid": "5fe245ff6b9e475096776d0b6c0998a1"
+          }
+        ],
+        [
+          "100u",
+          1,
+          "1206",
+          "C8",
+          {
+            "Manufacturer Part": "CL31A107MPHNNNE",
+            "spiceSymbolName": "Cap_0805_EU",
+            "Supplier": "LCSC",
+            "Manufacturer": "SAMSUNG",
+            "Supplier Part": "C52922",
+            "puuid": "a9583a3e61994f79bca1e6cf3aee21e3",
+            "uuid": "5fe245ff6b9e475096776d0b6c0998a1"
+          }
+        ],
+        [
+          "3.3uH",
+          1,
+          "IND-SMD_L7.8-W7.0_0630",
+          "L1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C334093",
+            "Manufacturer": "Jinlai",
+            "Manufacturer Part": "JSHC0650H-3R3M-G",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "JSHC0650H-3R3M-G",
+            "puuid": "520b555b041f4f079caca1c74e8cf8df",
+            "uuid": "4c4d9789c8e0457c986d20e20f67527c"
+          }
+        ],
+        [
+          "Slide Switch",
+          1,
+          "SLIDE SWITCH DPDT 1P2T",
+          "PWR1",
+          {
+            "Manufacturer Part": "New SchematicLib",
+            "Contributor": "Zfjn03u",
+            "puuid": "b629d466ee7248d2b0e7be2e10f16e67",
+            "uuid": "5601ccfc2a9a4af38139cf79e789df4b"
+          }
+        ],
+        [
+          "FS8205",
+          2,
+          "SOT-23-6",
+          "Q1,Q2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "FORTUNE",
+            "Manufacturer Part": "FS8205",
+            "LCSC Assembly": "Yes",
+            "image": "//image.lceda.cn/szlcsc/C32254.jpg",
+            "Supplier Part": "C32254",
+            "SMT Type": "Basic",
+            "Contributor": "Stefan Wagner",
+            "spiceSymbolName": "FS8205",
+            "puuid": "792893d5e6cc491eb58d9aef2b74e663",
+            "uuid": "da4214269aab4c569ca1f27eb0eaf7c8"
+          }
+        ],
+        [
+          "BC547CTA",
+          1,
+          "TO-92-3_L4.8-W3.7-P2.54-L",
+          "Q3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C900799",
+            "Manufacturer": "onsemi(安森美)",
+            "Manufacturer Part": "BC547CTA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BC547CTA",
+            "puuid": "619489e674074de888fe8dd8f6b9799e",
+            "uuid": "5cff96287a9242b287e90590d8822eeb"
+          }
+        ],
+        [
+          "100kΩ",
+          2,
+          "RES-TH_BD2.4-L6.3-P10.30-D0.6",
+          "R1,R2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2644165",
+            "Manufacturer": "SEI(Stackpole Electronics Inc.)",
+            "Manufacturer Part": "RNF14FAE100K",
+            "spiceSymbolName": "RNF14FAE100K",
+            "puuid": "2915f1f0a54941d7b912decfe617b47f",
+            "uuid": "2c0a970a27014b76a5701fd82479de62"
+          }
+        ],
+        [
+          "100R",
+          1,
+          "0805",
+          "R5",
+          {
+            "Manufacturer Part": "0805W8F1000T5E",
+            "spiceSymbolName": "Res_0805(1/8W)_EU",
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Supplier Part": "C17408",
+            "puuid": "0d14e6c62b14419a891d7c175b7eca4f",
+            "uuid": "14305fcff6fe44d7aa3af50b8ddc6b6d"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "0805",
+          "R6",
+          {
+            "Manufacturer Part": "0805W8F1001T5E",
+            "spiceSymbolName": "Res_0805(1/8W)_EU",
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Supplier Part": "C17513",
+            "puuid": "0d14e6c62b14419a891d7c175b7eca4f",
+            "uuid": "14305fcff6fe44d7aa3af50b8ddc6b6d"
+          }
+        ],
+        [
+          "27k",
+          1,
+          "0805",
+          "R7",
+          {
+            "spiceSymbolName": "Res_0805(1/8W)_EU",
+            "Manufacturer Part": "0805W8F2702T5E",
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Supplier Part": "C17593",
+            "puuid": "0d14e6c62b14419a891d7c175b7eca4f",
+            "uuid": "14305fcff6fe44d7aa3af50b8ddc6b6d"
+          }
+        ],
+        [
+          "75k",
+          1,
+          "0805",
+          "R8",
+          {
+            "spiceSymbolName": "Res_0805(1/8W)_EU",
+            "Manufacturer Part": "0805W8F7502T5E",
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Supplier Part": "C17819",
+            "puuid": "0d14e6c62b14419a891d7c175b7eca4f",
+            "uuid": "14305fcff6fe44d7aa3af50b8ddc6b6d"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "0805",
+          "R9",
+          {
+            "spiceSymbolName": "Res_0805(1/8W)_EU",
+            "Manufacturer Part": "0805W8F1002T5E",
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Supplier Part": "C17414",
+            "puuid": "0d14e6c62b14419a891d7c175b7eca4f",
+            "uuid": "14305fcff6fe44d7aa3af50b8ddc6b6d"
+          }
+        ],
+        [
+          "SRA-05VDC-CL blue",
+          1,
+          "RELAY-TH_SRA-9VDC-CL",
+          "RLY1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "松乐",
+            "Manufacturer Part": "SRA-05VDC-CL",
+            "Supplier Part": "C87714",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SRA-05VDC-CL blue",
+            "puuid": "db2d06bd2946405a98007443fb3fa529",
+            "uuid": "08c2c7e8c8b0acfd1902a7861fb76f69"
+          }
+        ],
+        [
+          "DC_V",
+          1,
+          "BORNERA DOS TERMINALES TERMINAL BLOCK 5MM",
+          "SYSTEM1",
+          {
+            "Contributor": "omabistudio",
+            "spiceSymbolName": "DC_V",
+            "Manufacturer Part": "",
+            "puuid": "e9903a02e9d94ec7b0c86149c9cc4666",
+            "uuid": "dea2ce1161d344d1acb6942d81527ead"
+          }
+        ],
+        [
+          "FP6277XR-G1",
+          1,
+          "SOP-8_EP_150MIL",
+          "U1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "Feeling Technology",
+            "Manufacturer Part": "FP6277XR-G1",
+            "Contributor": "LCSC",
+            "Supplier Part": "C88312",
+            "LCSC Assembly": "Yes",
+            "SMT Type": "Extend",
+            "spiceSymbolName": "FP6277XR-G1",
+            "puuid": "5f6ba4dd0a3f41a69202836ad75a748a",
+            "uuid": "a83fd387e18f4be793b8bbfae81c5a18"
+          }
+        ],
+        [
+          "DW01A",
+          1,
+          "SOT-23-6",
+          "U2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "FM",
+            "Manufacturer Part": "DW01A",
+            "Supplier Part": "C85680",
+            "puuid": "792893d5e6cc491eb58d9aef2b74e663",
+            "uuid": "45948daa2a43706d5c3787fcbf830d21"
+          }
+        ],
+        [
+          "1N4007A",
+          1,
+          "DO-41_BD2.4-L4.7-P8.70-D0.9-RD",
+          "U3",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5336145",
+            "Manufacturer": "LRC(乐山无线电)",
+            "Manufacturer Part": "1N4007A",
+            "spiceSymbolName": "1N4007A",
+            "puuid": "c2803222ad4b48fb94db0de548a6280a",
+            "uuid": "d230e36580fb45eda55855df3389d113"
+          }
+        ],
+        [
+          "UZ1085L-33-TN3-R",
+          1,
+          "TO-252-2_L6.6-W6.1-P4.58-BR",
+          "U4",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UTC",
+            "Manufacturer Part": "UZ1085L-33-TN3-R",
+            "Supplier Part": "C125622",
+            "LCSC Assembly": "Yes",
+            "SMT Type": "Extend",
+            "spiceSymbolName": "UZ1085L-33-TN3-R",
+            "puuid": "1dc685606e6c472fa35a8b508d1db7a7",
+            "uuid": "6c09ec82c6694962a6fce5e4cb9d9df2"
+          }
+        ],
+        [
+          "ESP32",
+          1,
+          "ESP32",
+          "U5",
+          {
+            "catid": "20",
+            "Contributor": "osama91",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "https://www.amazon.ca/gp/product/B07KTV2RRM/ref=crt_ewc_img_huc_1?ie=UTF8&psc=1&smid=A36ZH2MCHPKXUA",
+            "sim": "true",
+            "spiceSymbolName": "ESP32",
+            "Manufacturer Part": "",
+            "puuid": "6e268a5d6bc74cafaf5f74772b20792c",
+            "uuid": "d238d406527f461f846600d10482d9a6"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "RES-TH_BD2.4-L6.3-P10.30-D0.6",
+          "U6",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1377488",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "FM0207FTE52-10K",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "FM0207FTE52-10K",
+            "puuid": "2915f1f0a54941d7b912decfe617b47f",
+            "uuid": "765452614bf1424f8707a5d6d7019657"
+          }
+        ]
+      ],
+      "updateTime": 1711543390,
+      "createTime": 1707433760,
+      "histories": [],
+      "created_at": "2024-02-09 02:09:20",
+      "updated_at": "2024-03-27 15:43:10"
+    },
+    {
+      "uuid": "2c16fd640e82e0d145eb701cfd10a8c3",
+      "puuid": "d311b502981892878f486ea1760c12eb",
+      "title": "PCB_FINAL YEAR PROJECT",
+      "filename": "PCB_FINAL YEAR PROJECT.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f61994d539564aabbacb96cb1ba011be": 3,
+        "0d14e6c62b14419a891d7c175b7eca4f": 10,
+        "a9583a3e61994f79bca1e6cf3aee21e3": 1,
+        "520b555b041f4f079caca1c74e8cf8df": 1,
+        "e23d9e6846104fb6a29a9e5ba8692df5": 1,
+        "b629d466ee7248d2b0e7be2e10f16e67": 1,
+        "792893d5e6cc491eb58d9aef2b74e663": 3,
+        "619489e674074de888fe8dd8f6b9799e": 1,
+        "2915f1f0a54941d7b912decfe617b47f": 3,
+        "db2d06bd2946405a98007443fb3fa529": 1,
+        "e9903a02e9d94ec7b0c86149c9cc4666": 1,
+        "5f6ba4dd0a3f41a69202836ad75a748a": 1,
+        "c2803222ad4b48fb94db0de548a6280a": 1,
+        "1dc685606e6c472fa35a8b508d1db7a7": 1
+      },
+      "BOM": [],
+      "updateTime": 1724235469,
+      "createTime": 1707508386,
+      "histories": [],
+      "created_at": "2024-02-09 22:53:06",
+      "updated_at": "2024-08-21 13:17:49"
+    }
+  ],
+  "sort": [],
+  "title": "FINAL YEAR PROJECT",
+  "foldername": "FINAL YEAR PROJECT",
+  "schfilename": "FINAL YEAR PROJECT.json",
+  "schfilemtime": 1711543390970
+}

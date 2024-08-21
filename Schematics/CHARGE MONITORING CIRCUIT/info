@@ -1,0 +1,210 @@
+{
+  "uuid": "9fc7625f0485ae53ca605515bdd479c5",
+  "path": "Offline/CHARGE%20MONITORING%20CIRCUIT",
+  "name": "CHARGE MONITORING CIRCUIT",
+  "content": "",
+  "created_at": "2024-02-09 00:54:30",
+  "updated_at": "2024-02-09 00:54:30",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "aa312136e8b5f237800ba61b7b9d16ac",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4eb21128b64143f0ab64bf9ba0d8e94f": 1,
+        "b7adf400643b4936be8b786704d0e70f": 1,
+        "5cff96287a9242b287e90590d8822eeb": 1,
+        "7d4ae06bc2cc4a668b33da102af119d5": 1,
+        "d230e36580fb45eda55855df3389d113": 1,
+        "2c0a970a27014b76a5701fd82479de62": 2,
+        "765452614bf1424f8707a5d6d7019657": 1,
+        "dea2ce1161d344d1acb6942d81527ead": 3,
+        "0cb5b2f23f754c8bbd882904785c7341": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BLOCK",
+          1,
+          "BORNERA DOS TERMINALES TERMINAL BLOCK 5MM",
+          "5V_SUPPLY",
+          {
+            "Contributor": "omabistudio",
+            "spiceSymbolName": "DC_V",
+            "Manufacturer Part": "",
+            "puuid": "e9903a02e9d94ec7b0c86149c9cc4666",
+            "uuid": "dea2ce1161d344d1acb6942d81527ead"
+          }
+        ],
+        [
+          "DC_V",
+          2,
+          "BORNERA DOS TERMINALES TERMINAL BLOCK 5MM",
+          "BATTERY,SYSTEM",
+          {
+            "Contributor": "omabistudio",
+            "spiceSymbolName": "DC_V",
+            "Manufacturer Part": "",
+            "puuid": "e9903a02e9d94ec7b0c86149c9cc4666",
+            "uuid": "dea2ce1161d344d1acb6942d81527ead"
+          }
+        ],
+        [
+          "THT_RELAY-5V",
+          1,
+          "RELAY-TH_RELAY-SPST",
+          "K1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2941249",
+            "Manufacturer": "null",
+            "Manufacturer Part": "Relay-SPST",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "aryatama22trm",
+            "spiceSymbolName": "THT_RELAY-SPST_5V",
+            "puuid": "b0358ef082e44cf3bf218d24e9c86cfe",
+            "uuid": "7d4ae06bc2cc4a668b33da102af119d5"
+          }
+        ],
+        [
+          "BC547CTA",
+          1,
+          "TO-92-3_L4.8-W3.7-P2.54-L",
+          "Q1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C900799",
+            "Manufacturer": "onsemi(安森美)",
+            "Manufacturer Part": "BC547CTA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BC547CTA",
+            "puuid": "619489e674074de888fe8dd8f6b9799e",
+            "uuid": "5cff96287a9242b287e90590d8822eeb"
+          }
+        ],
+        [
+          "100kΩ",
+          2,
+          "RES-TH_BD2.4-L6.3-P10.30-D0.6",
+          "R1,R2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2644165",
+            "Manufacturer": "SEI(Stackpole Electronics Inc.)",
+            "Manufacturer Part": "RNF14FAE100K",
+            "spiceSymbolName": "RNF14FAE100K",
+            "puuid": "2915f1f0a54941d7b912decfe617b47f",
+            "uuid": "2c0a970a27014b76a5701fd82479de62"
+          }
+        ],
+        [
+          "RTC_CLONE",
+          1,
+          "RTC3231",
+          "U1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "James2",
+            "spiceSymbolName": "RTC_CLONE",
+            "puuid": "0e1d5cf28d0c4e92a95356f173ce2f6d",
+            "uuid": "4eb21128b64143f0ab64bf9ba0d8e94f"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "1N4007A",
+          1,
+          "DO-41_BD2.4-L4.7-P8.70-D0.9-RD",
+          "U3",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5336145",
+            "Manufacturer": "LRC(乐山无线电)",
+            "Manufacturer Part": "1N4007A",
+            "spiceSymbolName": "1N4007A",
+            "puuid": "c2803222ad4b48fb94db0de548a6280a",
+            "uuid": "d230e36580fb45eda55855df3389d113"
+          }
+        ],
+        [
+          "ESP8266",
+          1,
+          "WIFIM-SMD_ESP-12F-ESP8266MOD",
+          "U4",
+          {
+            "LINK": "https://img.jlc.com/image//data/smt-stock-produce/componentSizePhoto/2021-12-02/b5eb61357b2a478295008aee8c894ebd/BG2111290693_D21112900056_font.png",
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003049",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ESP8266",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ESP8266",
+            "puuid": "21bb26c585544e17a64bb2b57131b3de",
+            "uuid": "0cb5b2f23f754c8bbd882904785c7341"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "RES-TH_BD2.4-L6.3-P10.30-D0.6",
+          "U6",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1377488",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "FM0207FTE52-10K",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "FM0207FTE52-10K",
+            "puuid": "2915f1f0a54941d7b912decfe617b47f",
+            "uuid": "765452614bf1424f8707a5d6d7019657"
+          }
+        ]
+      ],
+      "updateTime": 1707429270,
+      "createTime": 1707429270,
+      "histories": [],
+      "created_at": "2024-02-09 00:54:30",
+      "updated_at": "2024-02-09 00:54:30"
+    }
+  ],
+  "sort": [],
+  "title": "CHARGE MONITORING CIRCUIT",
+  "foldername": "CHARGE MONITORING CIRCUIT",
+  "schfilename": "CHARGE MONITORING CIRCUIT.json",
+  "schfilemtime": 1707429270549
+}
